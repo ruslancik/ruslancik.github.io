@@ -40,7 +40,7 @@
     cursor: default;
     position: absolute;
     display: flex;
-    width: 75vmin;
+    width: 85vmin;
     height: 40vmin;
     border-radius: 500px 5vmin 5vmin 500px;
     color: white;
@@ -95,13 +95,13 @@
     background: #27ae60;
     top: 0;
     border-radius: 1vmin 0 0 0;
-    border-bottom: 12vmin solid #f1c40f;
+    border-bottom: 12vmin solid #3b5998;
   }
   .card__content:after {
-    background: #9b59b6;
+    background: #FCAF45;
     bottom: 0;
     border-radius: 0 0 0 1vmin;
-    border-top: 10vmin solid #3498db;
+    border-top: 10vmin solid #E1306C;
   }
   
   .logo,
@@ -114,12 +114,22 @@
     height: 100%;
     width: 40%;
     padding-left: 4vmin;
+    position: relative;
   }
-  .logo__img {
+
+  .logo_img {
     display: block;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: auto;
     fill: white;
+    border-radius: 200px 10px 10px 200px;
+    -moz-border-radius: 200px 10px 10px 200px;
+    -webkit-border-radius: 200px 10px 10px 200px;
+    border: 0px solid #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .text {
@@ -139,13 +149,13 @@
     background: #27ae60;
     top: 0;
     border-radius: 0 1vmin 0 0;
-    border-bottom: 12vmin solid #f1c40f;
+    border-bottom: 12vmin solid #3b5998;
   }
   .text:after {
-    background: #9b59b6;
+    background: #FCAF45;
     bottom: 0;
     border-radius: 0 0 1vmin 0;
-    border-top: 10vmin solid #3498db;
+    border-top: 10vmin solid #E1306C;
   }
   
   .head {
@@ -174,7 +184,7 @@
     outline: none;
     color: white;
     font-size: 3vmin;
-    line-height: 10vmin;
+    line-height: 10.05465vmin;
     padding-left: 5vmin;
     padding-right: 2.5vmin;
     cursor: pointer;
@@ -189,13 +199,13 @@
     border-radius: 1vmin 0 0;
   }
   .contact > li:nth-child(2) > a {
-    background: #f1c40f;
+    background: #3b5998;
   }
   .contact > li:nth-child(3) > a {
-    background: #3498db;
+    background: #E1306C;
   }
   .contact > li:nth-child(4) > a {
-    background: #9b59b6;
+    background: #FCAF45;
     border-radius: 0 0 0 1vmin;
   }
   
